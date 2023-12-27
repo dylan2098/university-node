@@ -1,0 +1,27 @@
+{
+    "required": [
+        "id_courses",
+        "url",
+        "title",
+        "chapter",
+        "sort_number"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "id_courses": {
+            "type": "integer"
+        },
+        "url": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "chapter": {
+            "type": "string"
+        },
+        "sort_number": {
+            "type": "integer"
+        }
+    }
+}

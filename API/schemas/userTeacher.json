@@ -1,0 +1,22 @@
+{
+    "required": [
+      "email",
+      "full_name",
+      "phone"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "email": {
+        "type": "string"
+      },
+      "full_name": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "des_futher": {
+        "type": "string"
+      }
+    }
+  }

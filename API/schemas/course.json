@@ -1,0 +1,38 @@
+{
+    "required": [
+      "title",
+      "image",
+      "des_short",
+      "des_long",
+      "id_category",
+      "price",
+      "attachment"
+    ],
+    "additionalProperties": true,
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      },
+      "des_short": {
+        "type": "string"
+      },
+      "des_long": {
+        "type": "string"
+      },
+      "id_category": {
+        "type": "integer"
+      },
+      "price": {
+        "type": "integer"
+      },
+      "promotion_price": {
+        "type": "integer"
+      },
+      "attachment": {
+        "type": "string"
+      }
+    }
+  }

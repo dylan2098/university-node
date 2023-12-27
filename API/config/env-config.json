@@ -1,0 +1,152 @@
+{
+    "cloud_dinary": {
+        "cloud_name": "dvweth7yl",
+        "api_key": "429776856742478",
+        "api_secret": "OITKAXtTvSaKLL-zA0wlGVWNN4A",
+        "api_environment_variable": "CLOUDINARY_URL=cloudinary://429776856742478:OITKAXtTvSaKLL-zA0wlGVWNN4A@dvweth7yl",
+        "base_delivery_url": "http://res.cloudinary.com/dvweth7yl",
+        "secret_delivery_url": "https://res.cloudinary.com/dvweth7yl",
+        "api_base_url": "https://api.cloudinary.com/v1_1/dvweth7yl",
+        "url_upload_video": "https://api.cloudinary.com/v1_1/dvweth7yl/video/upload",
+        "url_upload_image": "https://api.cloudinary.com/v1_1/dvweth7yl/image/upload",
+        "folder_upload": "n3got5z5"
+    },
+    "social_network": {
+        "facebook_auth": {
+            "clientID": "384275692134589",
+            "clientSecret": "022aeaa443bed0179e6a1a64470550e5",
+            "callbackURL": "https://apploginx.herokuapp.com/user/auth/facebook/callback",
+            "profileFields": [
+                "id",
+                "email",
+                "gender",
+                "locale",
+                "displayName"
+            ]
+        },
+        "google_auth": {
+            "clientID": "374558666946-5nt13rqm42bhlul39vi7tpb5sd00oks6.apps.googleusercontent.com",
+            "clientSecret": "eJUp0XvbWySwpJcGH4bVkXN6",
+            "callbackURL": "http://localhost:5000/api/auth/google/callback"
+        }
+    },
+    "role": {
+        "admin": 0,
+        "teacher": 1,
+        "student": 2
+    },
+    "status": {
+        "e_400": [
+            "400",
+            "Bad request"
+        ],
+        "e_404": [
+            "404",
+            "Not found"
+        ],
+        "e_601": [
+            "601",
+            "Email exists!"
+        ],
+        "e_602": [
+            "602",
+            "Emaill or password is not defined"
+        ],
+        "e_603": [
+            "603",
+            "Email invalid"
+        ],
+        "e_604": [
+            "604",
+            "User account or password is incorrect"
+        ],
+        "e_605": [
+            "605",
+            "Key active failed"
+        ],
+        "e_606": [
+            "606",
+            "User not exist"
+        ],
+        "e_607": [
+            "607",
+            "Password not match"
+        ],
+        "e_608": [
+            "608",
+            "User is not defined"
+        ],
+        "e_609": [
+            "609",
+            "Phone invalid"
+        ],
+        "e_612": [
+            "612",
+            "Role incorrect"
+        ],
+        "e_613": [
+            "613",
+            "You do not have permission to update this user information"
+        ],
+        "e_614": [
+            "614",
+            "Key active empty"
+        ],
+        "e_615": [
+            "615",
+            "Password repeat is invalid"
+        ],
+        "e_616": [
+            "616",
+            "Account disabled."
+        ],
+        "e_800": [
+            "800",
+            "Access deny"
+        ],
+        "e_801": [
+            "801",
+            "Permission deny"
+        ],
+        "e_802": [
+            "802",
+            "Token is expired or invalid"
+        ],
+        "e_803": [
+            "803",
+            "Invalid token"
+        ],
+        "e_804": [
+            "804",
+            "Token required"
+        ],
+        "e_805": [
+            "805",
+            "Invalid Refresh Token"
+        ],
+        "e_997": [
+            "997",
+            "Action failed"
+        ],
+        "e_998": [
+            "998",
+            "Data invalid"
+        ],
+        "e_999": [
+            "999",
+            "Unknown error"
+        ],
+        "e_1000": [
+            "1000",
+            "Value invalid"
+        ],
+        "e_1411": [
+            "1411",
+            "Required title"
+        ],
+        "e_1451": [
+            "1451",
+            "Foreign key constraint"
+        ]
+    }
+}
